@@ -1,27 +1,9 @@
-# PAY.CARDS RECOGNIZER
+# PAY.CARDS.X RECOGNIZER
 
+(Fork of PayCards library to give Jetpack/AndroidX Support)
 Automatic recognition of bank card data using built-in camera on Android devices.
 
 See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.pay.demo)
-
-### Installation
-
-* Add Maven URL for the pay.cards repository to your project `build.gradle` file.
-
-    ```gradle
-    repositories {
-         maven { url "http://pay.cards/maven" }
-    }
-    ```
-
-
-* Add the dependency
-
-    ```gradle
-    dependencies {
-        implementation 'cards.pay:paycardsrecognizer:1.1.0'
-    }
-    ```
 
 ### Usage
 
